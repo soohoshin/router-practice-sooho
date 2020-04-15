@@ -5,7 +5,6 @@ const About = ({ location, match }) => {
     const query = queryString.parse(location.search)
     const detail = query.detail === 'true'
     console.log(query)
-    console.log(query + 'test')
     return (
         <div>
             <h2>About {match.params.name} </h2>
