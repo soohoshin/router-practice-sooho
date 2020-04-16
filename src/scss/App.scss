@@ -1,0 +1,12 @@
+.nav {
+    ul{ padding: 0; margin: 0; list-style: none;
+        li{
+            a{ display: inline-block; text-decoration: none; color: black;
+                &.active{ color: goldenrod; font-weight: bold;}
+                &.visit{ color: black;}
+            }
+        }
+    }
+
+}
+ 
